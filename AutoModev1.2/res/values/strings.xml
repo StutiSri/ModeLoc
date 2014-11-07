@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoMode</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_spalsh">M.A.D</string>
+    
+    <string name="save_button">Save Modes</string>
+    <string name="get_button">Get Modes</string>
+    
+    <string name="loc_name">Name Your Location</string>
+    <string name="radius">Radius</string>
+     <string name="pref_mode">Preffered Mode</string>
+     <string name="m">m</string>
+    
+     <string name="rB1">Normal</string>
+     <string name="rB2">Silent</string>
+     <string name="rB3">Vibrate</string>
+     
+     <string name="hint1">Location\'s Name</string>
+     <string name="default_radius">100</string>
+     
+     <string name="toast_no_loc_ame">Please Enter a Location Name First</string>
+     <string name="toast_get_mode">Get Modes</string>
+     <string name="toast_save_mode">Save Modes</string>   
+     
+     <string name="footer_text">Add a New Location</string>
+        
+    
+
+</resources>
