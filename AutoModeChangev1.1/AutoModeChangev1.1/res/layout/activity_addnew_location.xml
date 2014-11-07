@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etLocationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_edit_text_drawable"
+        android:gravity="center"
+        android:hint="Enter Name of Location"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColorHighlight="#5CB3FF" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="20dp"
+        android:background="#ffffff" />
+
+    <RadioGroup
+        android:id="@+id/rgModesGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp" >
+
+        <RadioButton
+            android:id="@+id/rbNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/apptheme_btn_radio_holo_light"
+            android:checked="true"
+            android:text="Normal Mode"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbVibrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/apptheme_btn_radio_holo_light"
+            android:text="Vibrate Mode"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbSilent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/apptheme_btn_radio_holo_light"
+            android:text="Silent Mode"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="20dp"
+        android:background="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radius:"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etRadius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/apptheme_edit_text_holo_light"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:text="10"
+            android:textColor="#ffffff"
+            android:textColorHighlight="#5CB3FF"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ivEditRadius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_action_edit"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/ivSaveRadius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_action_accept"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+</LinearLayout>
